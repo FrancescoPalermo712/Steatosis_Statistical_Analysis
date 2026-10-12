@@ -1,8 +1,5 @@
 # Importazione dati
 #####
-input <- file.path("C:","Users","franc","Documents","Programmazione","R","Dati","Studio_1_Cate","Input settembre")
-output <- file.path("C:","Users","franc","Documents","Programmazione","R","Dati","Studio_1_Cate","Output settembre")
-
 data_orig <- readxl::read_xlsx(path = here(file.path("Input settembre", "Def1_PER_FRANCI_GIADA_MODIFIED_Final_Database_Fat_Fraction_mindray.xlsx")), skip = 2, sheet = "CALC_Nuovo_Database_1,5T")
 
 # Importazione cutoff
